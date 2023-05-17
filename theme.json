@@ -29,13 +29,8 @@
             "duotone": [
                 { "slug": "u-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "Udemy Pink Sunset"}
             ],
-            "defaultGradients": false,
-            "gradients": [
-                {
-                    "slug": "u-summer-dog", 
-                    "name": "Udemy Summer Dog", "gradient": "linear-gradient(#a8ff78, #78ffd6)"
-                }
-            ]
+            "defaultGradients": false
+  
         },
         "blocks": {
             "core/site-title":{
@@ -177,5 +172,14 @@
             },
             "blockGap": "4rem"
         }
-    }   
+    },
+    "customTemplates": [
+        {
+            "name": "full-width-page",
+            "title": "Full Width Page",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ] 
 }
